@@ -1,6 +1,6 @@
-prompt("Mohamed");
-prompt(19);
+let prenom = prompt("Quel est ton prénom?");
+let age = prompt("Quel est ton âge?");
 
-let presentation = "Je m'appelle Mohamed, j'ai 19 ans"
+let presentation = prenom + age
 
 alert(presentation);
